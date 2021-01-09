@@ -71,7 +71,7 @@ class DQNAgent:
 
     def replay(self, batch_size):
 
-        # If memory list not big enough do nothin
+        # If memory list not big enough do nothing
         if len(self.memory) < batch_size:   return
 
         # Randomly selects samples to train
