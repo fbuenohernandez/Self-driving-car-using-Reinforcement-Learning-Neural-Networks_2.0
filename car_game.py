@@ -345,7 +345,6 @@ class Car:
         self.steer_angle = round(self.steer_angle, 2)
 
 
-
     def accel_brake(self, env_action):
         if "ACCEL" in env_action:
             if self.speed < self.top_speed:
